@@ -1,0 +1,9 @@
+<?php
+// app/View/HomesController.php
+class HomesController extends AppController {
+	    public $name = 'Home';	
+
+    public function index() {
+	//Para desplegar pag principal
+    }
+}

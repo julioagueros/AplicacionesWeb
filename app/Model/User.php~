@@ -1,0 +1,97 @@
+<?php
+// app/Model/User.php
+
+//Utilizando el componente de autorizacion para poder hacer password hashing
+App::uses('AuthComponent', 'Controller/Component');
+class User extends AppModel {
+
+    public $name = 'User';
+
+	//para ligarlo con Courses.
+	public $hasMany = array(
+		'CoursesUser' => array(
+			'className' => 'CoursesUser',
+			'foreignKey'    => 'user_id')
+		);
+	
+	/*/Para ligarlo con Courses.
+	public $hasAndBelongsToMany = array(
+		'CourseOf' =>
+			array(
+	                	'className'              => 'Course',
+		                'joinTable'              => 'courses_users',
+		                'foreignKey'             => 'user_id',
+		                'associationForeignKey'  => 'course_id',
+		                'unique'                 => true
+			)
+		);
+
+	*/
+    
+    //Validaciones para usuario
+    public $validate = array(
+	//validando username
+        'username' => array(
+		'length' => array(
+		    'rule' => array('maxLength', 30),
+		    'message' => 'Usernames must be no larger than 30 characters long.'
+		),
+		'required' => array(
+			'rule' => array('notEmpty'),
+                	'message' => 'A username is required'
+		),
+		'unicorestric' => array(
+			'rule' => 'isUnique',
+			'message' => 'This username has already been taken.'
+		)
+        ),
+	//validando password
+        'password' => array(
+		'required' => array(
+			'rule' => array('notEmpty'),
+                	'message' => 'A password is required'
+		),
+		'range' => array(
+			'rule' => array('between', 8, 30),
+			'message' => 'Passwords must be between 8 and 30 characters long.'
+		)
+        ),
+	//validando rol
+        'role' => array(
+            'valid' => array(
+                'rule' => array('inList', array('administrador', 'profesor', 'estudiante')),
+                'message' => 'Please enter a valid role',
+                'allowEmpty' => false
+            )
+        ),
+
+	//Validando email
+	'email' => array(
+		'required' => array(
+			'rule' => array('notEmpty'),
+			'message' => 'The email is required'
+		),
+		'unicorestric' => array(
+			'rule' => 'isUnique',
+			'message' => 'This email has already been taken.'
+		),
+		'validEmail' => array(
+			'rule' => 'email',
+			'message' => 'The email is not valid'
+		)
+	)
+    );
+
+    public function beforeSave($options = array()) {
+	if (isset($this->data[$this->alias]['password'])) {
+	    $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+	}
+	return true;
+    }
+
+	//funcion para saber si el usuario que esta activo es el mismo que se pregunta en el parámetro
+	//el param $user es el id del user, se compara contra el $userURL que es el que se está intentando editar.
+	public function isItself ($userURL, $user){
+		return $this->field('id', array('id' => $userURL)) === $user;
+	}
+}

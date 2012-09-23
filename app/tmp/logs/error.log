@@ -1,0 +1,937 @@
+2012-09-01 15:36:16 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/app/index.php(17): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 15:39:50 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/app/index.php(17): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:14 Error: [MissingActionException] Action PostsController::css() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:14 Error: [MissingActionException] Action PostsController::img() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:14 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:14 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:14 Error: [MissingActionException] Action PostsController::favicon.ico() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#4 {main}
+2012-09-01 16:42:53 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /var/www/cakephp/index.php(42): require('/var/www/cakeph...')
+#2 {main}
+2012-09-01 17:20:21 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-01 17:20:42 Error: [MissingActionException] Action PostsController::view() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-02 00:23:13 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/cakephp/app/Model/Post.php, line 13]
+2012-09-02 00:23:13 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 13, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 13, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-08 22:47:58 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/var/www/cakephp/app/Model/User.php, line 40]
+2012-09-08 22:47:58 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 40, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 40, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-08 22:50:16 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 00:24:44 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 00:37:30 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 00:44:12 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:06:39 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-09 02:06:46 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:07:00 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:07:05 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:07:19 Error: [MissingControllerException] Controller class Add.ctpController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-09 02:17:17 Error: [MissingActionException] Action AppController::Controller() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 02:18:48 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-09 02:19:05 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:21:02 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->edit()
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 02:21:10 Error: [MissingActionException] Action UsersController::edit.php() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 02:21:17 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->edit()
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-09 12:13:48 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-09 12:13:58 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 12:14:10 Error: [MissingControllerException] Controller class Home.ctpController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-09 12:14:21 Error: [MissingActionException] Action PagesController::index() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 12:14:29 Error: [MissingActionException] Action PagesController::home.ctp() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 12:14:35 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 22:51:34 Error: [MissingActionException] Action PagesController::home() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-09 22:51:35 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Users/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 04:54:27 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 00:33:53 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'blog_application'" is missing, or could not be created.
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/cakephp/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /var/www/cakephp/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /var/www/cakephp/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('users')
+#5 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate(NULL, Array, Array)
+#8 /var/www/cakephp/app/Controller/UsersController.php(23): Controller->paginate()
+#9 [internal function]: UsersController->index()
+#10 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-09-10 00:51:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isItself' at line 1
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('isItself', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('isItself', Array, Array)
+#3 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('isItself', Array, Array)
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(784): DboSource->query('isItself', Array, Object(User))
+#5 /var/www/cakephp/app/Controller/UsersController.php(13): Model->__call('isItself', Array)
+#6 /var/www/cakephp/app/Controller/UsersController.php(13): User->isItself('9', '9')
+#7 /var/www/cakephp/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): UsersController->isAuthorized(Array)
+#8 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(UsersController))
+#11 /var/www/cakephp/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#12 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#13 /var/www/cakephp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#14 /var/www/cakephp/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#15 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#16 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#17 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2012-09-10 03:16:06 Error: [SocketException] Could not send email.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): MailTransport->send(Object(CakeEmail))
+#1 /var/www/cakephp/app/Controller/UsersController.php(49): CakeEmail->send('Usted se ha reg...')
+#2 [internal function]: UsersController->add()
+#3 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-09-10 03:18:15 Error: [SocketException] Could not send email.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): MailTransport->send(Object(CakeEmail))
+#1 /var/www/cakephp/app/Controller/UsersController.php(49): CakeEmail->send('Usted se ha reg...')
+#2 [internal function]: UsersController->add()
+#3 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-09-10 03:34:17 Error: Fatal Error (1): Call to undefined function deliver() in [/var/www/cakephp/app/Controller/UsersController.php, line 52]
+2012-09-10 03:34:17 Error: [FatalErrorException] Call to undefined function deliver()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 52, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 52, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 03:35:06 Error: [SocketException] Could not send email.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): MailTransport->send(Object(CakeEmail))
+#1 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1098): CakeEmail->send('Usted se ha reg...')
+#2 /var/www/cakephp/app/Controller/UsersController.php(52): CakeEmail::deliver('puravida.coffee...', 'Bienvenido a la...', 'Usted se ha reg...', Array)
+#3 [internal function]: UsersController->add()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 03:36:08 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('12')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 03:37:08 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('12')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 03:39:14 Error: [ConfigureException] /var/www/cakephp/app/Config/email.php not found.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1032): CakeEmail->_applyConfig('default')
+#1 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(334): CakeEmail->config('default')
+#2 /var/www/cakephp/app/Controller/UsersController.php(46): CakeEmail->__construct('default')
+#3 [internal function]: UsersController->add()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 03:46:59 Error: Fatal Error (1): Class 'EmailConfig' not found in [/var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php, line 1118]
+2012-09-10 03:46:59 Error: [FatalErrorException] Class 'EmailConfig' not found
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'EmailCon...', '/var/www/cakeph...', 1118)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'EmailCon...', '/var/www/cakeph...', 1118, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'EmailCon...', '/var/www/cakeph...', 1118, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 04:08:54 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/var/www/cakephp/app/Config/email.php, line 20]
+2012-09-10 04:08:54 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 04:09:46 Error: [SocketException] Could not send email.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): MailTransport->send(Object(CakeEmail))
+#1 /var/www/cakephp/app/Controller/UsersController.php(50): CakeEmail->send('Usted se ha reg...')
+#2 [internal function]: UsersController->add()
+#3 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-09-10 04:10:35 Error: [SocketException] Could not send email.
+#0 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): MailTransport->send(Object(CakeEmail))
+#1 /var/www/cakephp/app/Controller/UsersController.php(50): CakeEmail->send('Usted se ha reg...')
+#2 [internal function]: UsersController->add()
+#3 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-09-10 04:16:40 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 04:20:55 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 04:26:49 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('24')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 05:17:07 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-10 05:17:54 Error: [MissingControllerException] Controller class ViewController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 05:18:01 Error: [MissingActionException] Action AppController::view() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-10 05:18:43 Error: [MissingActionException] Action AppController::View() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-10 05:18:48 Error: [MissingActionException] Action AppController::View() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-10 05:44:33 Error: [MissingActionException] Action AppController::Home() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-10 05:44:42 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 05:45:59 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Home/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 09:33:25 Error: [SocketException] Connection refused
+#0 /var/www/cakephp/lib/Cake/Network/Email/SmtpTransport.php(95): CakeSocket->connect()
+#1 /var/www/cakephp/lib/Cake/Network/Email/SmtpTransport.php(60): SmtpTransport->_connect()
+#2 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): SmtpTransport->send(Object(CakeEmail))
+#3 /var/www/cakephp/app/Controller/UsersController.php(52): CakeEmail->send('Usted, Hendrixs...')
+#4 [internal function]: UsersController->add()
+#5 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-09-10 09:34:05 Error: [SocketException] Connection refused
+#0 /var/www/cakephp/lib/Cake/Network/Email/SmtpTransport.php(95): CakeSocket->connect()
+#1 /var/www/cakephp/lib/Cake/Network/Email/SmtpTransport.php(60): SmtpTransport->_connect()
+#2 /var/www/cakephp/lib/Cake/Network/Email/CakeEmail.php(1059): SmtpTransport->send(Object(CakeEmail))
+#3 /var/www/cakephp/app/Controller/UsersController.php(52): CakeEmail->send('Usted, Adminse ...')
+#4 [internal function]: UsersController->add()
+#5 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-09-10 09:51:28 Error: [MissingControllerException] Controller class CourseController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 11:19:16 Error: [MissingControllerException] Controller class QuequeController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 11:19:23 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 11:20:17 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 11:21:39 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 11:21:44 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('posts')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PostsController.php(8): Model->find('all')
+#3 [internal function]: PostsController->index()
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-10 12:16:26 Error: [MissingControllerException] Controller class CourseController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 16:23:58 Error: Fatal Error (1): Call to a member function input() on a non-object in [/var/www/cakephp/app/View/Courses/add.ctp, line 8]
+2012-09-10 16:23:58 Error: [FatalErrorException] Call to a member function input() on a non-object
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 8, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 8, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 16:50:27 Error: Fatal Error (4): syntax error, unexpected T_ECHO, expecting ',' or ';' in [/var/www/cakephp/app/View/Courses/add.ctp, line 11]
+2012-09-10 16:50:27 Error: [FatalErrorException] syntax error, unexpected T_ECHO, expecting ',' or ';'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 11, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 11, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 18:15:59 Error: [NotFoundException] Invalid course
+#0 [internal function]: CoursesController->view('22')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 18:17:07 Error: [NotFoundException] Invalid course
+#0 [internal function]: CoursesController->view('22')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 18:17:09 Error: [NotFoundException] Invalid course
+#0 [internal function]: CoursesController->view()
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 18:17:42 Error: [NotFoundException] Invalid course
+#0 [internal function]: CoursesController->view('22')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 18:18:40 Error: [NotFoundException] Invalid coursepapaya
+#0 [internal function]: CoursesController->view('22')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 19:00:14 Error: [MissingControllerException] Controller class AssignmentsController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 19:48:55 Error: [MissingControllerException] Controller class CoursesUsersController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 19:59:01 Error: [MissingControllerException] Controller class CoursesusersController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 19:59:09 Error: [MissingControllerException] Controller class CoursesUsersController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 20:04:51 Error: [MissingControllerException] Controller class CourssController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 20:08:46 Error: [MissingControllerException] Controller class CoursesuserController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 20:08:51 Error: [MissingControllerException] Controller class CoursesUserController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 20:09:25 Error: [MissingControllerException] Controller class CoursesUserController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 20:09:39 Error: [MissingControllerException] Controller class CoursesUserController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 21:48:30 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: CoursesController->addstudent('12')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 22:15:53 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: CoursesController->addstudent('14')
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 22:20:12 Error: Fatal Error (1): Cannot use object of type User as array in [/var/www/cakephp/app/Controller/CoursesController.php, line 78]
+2012-09-10 22:20:12 Error: [FatalErrorException] Cannot use object of type User as array
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 78)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 78, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 78, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 22:46:14 Error: [MissingControllerException] Controller class CoursesuserController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 22:46:23 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 15]
+2012-09-10 22:46:23 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 15, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 15, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 22:46:47 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 14]
+2012-09-10 22:46:47 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 14, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 14, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 22:46:57 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 14]
+2012-09-10 22:46:57 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 14, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 14, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-10 22:47:25 Error: [MissingViewException] View file "/var/www/cakephp/app/View/CoursesUser/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 22:50:39 Error: [MissingViewException] View file "/var/www/cakephp/app/View/CoursesUser/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-10 22:50:46 Error: [MissingViewException] View file "/var/www/cakephp/app/View/CoursesUser/index.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-11 01:07:32 Error: Fatal Error (64): Cannot redeclare CoursesUserController::add() in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 17]
+2012-09-11 01:07:32 Error: [FatalErrorException] Cannot redeclare CoursesUserController::add()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 01:08:36 Error: Fatal Error (64): Cannot redeclare CoursesUserController::add() in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 17]
+2012-09-11 01:08:36 Error: [FatalErrorException] Cannot redeclare CoursesUserController::add()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-11 01:08:46 Error: [MissingControllerException] Controller class CoursesUsersController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-11 01:08:48 Error: Fatal Error (64): Cannot redeclare CoursesUserController::add() in [/var/www/cakephp/app/Controller/CoursesUserController.php, line 17]
+2012-09-11 01:08:48 Error: [FatalErrorException] Cannot redeclare CoursesUserController::add()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/cakeph...', 17, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-15 13:28:15 Error: [MissingControllerException] Controller class FilesController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-15 14:09:18 Error: [MissingBehaviorException] Behavior class FileModelBehavior could not be found.
+#0 /var/www/cakephp/lib/Cake/Model/BehaviorCollection.php(68): BehaviorCollection->load('FileModel', Array)
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(733): BehaviorCollection->init('Resource', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /var/www/cakephp/lib/Cake/Utility/ClassRegistry.php(156): ReflectionClass->newInstance(Array)
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(734): ClassRegistry::init(Array)
+#5 /var/www/cakephp/lib/Cake/Controller/Controller.php(366): Controller->loadModel('Resource')
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(404): Controller->__isset('Resource')
+#7 /var/www/cakephp/app/Controller/ResourcesController.php(31): Controller->__get('Resource')
+#8 [internal function]: ResourcesController->index()
+#9 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ResourcesController), Array)
+#10 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ResourcesController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-09-16 23:44:38 Error: [MissingTableException] Table files for model Files was not found in datasource default.
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3179): Model->setSource('files')
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /var/www/cakephp/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Course), Array)
+#3 /var/www/cakephp/lib/Cake/Model/Model.php(1516): Model->find('first', Array)
+#4 /var/www/cakephp/app/Controller/CoursesController.php(17): Model->read()
+#5 [internal function]: CoursesController->view('12')
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-09-16 23:47:00 Error: [MissingActionException] Action FeedsController::index_related_courses() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-16 23:47:15 Error: [MissingActionException] Action FeedsController::index_Related_Courses() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-17 00:15:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Feed' in 'where clause'
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Feed`.`...', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Feed`.`...', Array, Array)
+#3 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Feed`.`...', false)
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Feed), Array)
+#5 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate(Array, Array, Array)
+#7 /var/www/cakephp/app/Controller/FeedsController.php(45): Controller->paginate(Array)
+#8 [internal function]: FeedsController->indexRelatedCourses('12')
+#9 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#10 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-09-17 00:18:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Feed' in 'where clause'
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Feed`.`...', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Feed`.`...', Array, Array)
+#3 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Feed`.`...', false)
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Feed), Array)
+#5 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate(Array, Array, Array)
+#7 /var/www/cakephp/app/Controller/FeedsController.php(46): Controller->paginate(Array)
+#8 [internal function]: FeedsController->indexRelatedCourses('12')
+#9 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#10 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-09-17 00:52:28 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Controller/FeedsController.php, line 65]
+2012-09-17 00:52:28 Error: [FatalErrorException] Class 'XML' not found
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 65, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 65, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 00:58:15 Error: [Exception] String could not be parsed as XML
+#0 /var/www/cakephp/app/Controller/FeedsController.php(65): SimpleXMLElement->__construct('http://kurinchi...')
+#1 [internal function]: FeedsController->view('2')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-09-17 01:00:32 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 70]
+2012-09-17 01:00:32 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:01:32 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 70]
+2012-09-17 01:01:32 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:09:03 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 68]
+2012-09-17 01:09:03 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:09:12 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 68]
+2012-09-17 01:09:12 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:09:58 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 68]
+2012-09-17 01:09:58 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 68)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 68, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:10:27 Error: Fatal Error (1): Call to undefined method SimpleXMLElement::toArray() in [/var/www/cakephp/app/Controller/FeedsController.php, line 70]
+2012-09-17 01:10:27 Error: [FatalErrorException] Call to undefined method SimpleXMLElement::toArray()
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 70, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:31:53 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [/var/www/cakephp/app/View/Feeds/view.ctp, line 6]
+2012-09-17 01:31:53 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 01:32:46 Error: Fatal Error (4): syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in [/var/www/cakephp/app/View/Feeds/view.ctp, line 6]
+2012-09-17 01:32:46 Error: [FatalErrorException] syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 6, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 10:00:26 Error: [Exception] String could not be parsed as XML
+#0 /var/www/cakephp/lib/Cake/Utility/Xml.php(123): SimpleXMLElement->__construct('', 16384)
+#1 /var/www/cakephp/lib/Cake/Utility/Xml.php(102): Xml::_loadXml(false, Array)
+#2 /var/www/cakephp/app/Controller/FeedsController.php(65): Xml::build('http://www.goog...')
+#3 [internal function]: FeedsController->view('1')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(FeedsController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(FeedsController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-09-17 13:28:00 Error: [MissingControllerException] Controller class LogoutController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-17 13:29:00 Error: Fatal Error (4): syntax error, unexpected ')' in [/var/www/cakephp/app/Controller/CoursesController.php, line 16]
+2012-09-17 13:29:00 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 13:30:11 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/cakephp/app/Controller/CoursesController.php, line 21]
+2012-09-17 13:30:11 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 13:33:12 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR in [/var/www/cakephp/app/Controller/CoursesController.php, line 10]
+2012-09-17 13:33:12 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 13:33:37 Error: Fatal Error (1): Call to a member function user() on a non-object in [/var/www/cakephp/app/Controller/CoursesController.php, line 10]
+2012-09-17 13:33:37 Error: [FatalErrorException] Call to a member function user() on a non-object
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 14:08:04 Error: [MissingControllerException] Controller class UsersaController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-17 19:48:02 Error: [NotFoundException] Invalid course.
+#0 [internal function]: CoursesController->view()
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesController), Array)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-17 20:08:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/cakephp/app/Controller/CoursesController.php, line 19]
+2012-09-17 20:08:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 20:32:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/cakephp/app/Controller/CoursesController.php, line 19]
+2012-09-17 20:32:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-09-17 20:53:11 Error: [MissingActionException] Action CoursesUserController::view() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-17 20:53:52 Error: [MissingActionException] Action CoursesUserController::edit() could not be found.
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-09-17 21:00:55 Error: [MissingControllerException] Controller class CourseController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-17 21:00:58 Error: [MissingControllerException] Controller class CourseController could not be found.
+#0 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-17 21:01:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CoursesUser.user_id' in 'where clause'
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(2630): DboSource->read(Object(CoursesUser), Array)
+#5 /var/www/cakephp/app/Controller/CoursesController.php(20): Model->find('count', Array)
+#6 /var/www/cakephp/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): CoursesController->isAuthorized(Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#9 [internal function]: AuthComponent->startup(Object(CoursesController))
+#10 /var/www/cakephp/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#11 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#12 /var/www/cakephp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/cakephp/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#15 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#16 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2012-09-17 21:05:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'courses_users.user_id' in 'where clause'
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(2630): DboSource->read(Object(CoursesUser), Array)
+#5 /var/www/cakephp/app/Controller/CoursesController.php(20): Model->find('count', Array)
+#6 /var/www/cakephp/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(64): CoursesController->isAuthorized(Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(379): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Controller/Component/AuthComponent.php(326): AuthComponent->isAuthorized(Array)
+#9 [internal function]: AuthComponent->startup(Object(CoursesController))
+#10 /var/www/cakephp/lib/Cake/Utility/ObjectCollection.php(130): call_user_func_array(Array, Array)
+#11 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#12 /var/www/cakephp/lib/Cake/Event/CakeEventManager.php(246): call_user_func(Array, Object(CakeEvent))
+#13 /var/www/cakephp/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#14 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(183): Controller->startupProcess()
+#15 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesController), Object(CakeRequest), Object(CakeResponse))
+#16 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2012-09-17 23:58:47 Error: [MissingViewException] View file "/var/www/cakephp/app/View/CoursesUser/enroll_to_course.ctp" is missing.
+#0 /var/www/cakephp/lib/Cake/View/View.php(472): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-09-18 00:30:13 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `bl...', Array)
+#2 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `bl...')
+#3 /var/www/cakephp/lib/Cake/Model/Model.php(1730): DboSource->create(Object(CoursesUser), Array, Array)
+#4 /var/www/cakephp/app/Controller/CoursesUserController.php(40): Model->save(Array)
+#5 [internal function]: CoursesUserController->enrollToCourse('11')
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CoursesUserController), Array)
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CoursesUserController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

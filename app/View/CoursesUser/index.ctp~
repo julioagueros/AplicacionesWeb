@@ -1,0 +1,28 @@
+<!-- File: /app/View/CoursesUser/index.ctp -->
+
+<h1>CoursesUser</h1>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Area</th>
+        <th>Action</th>
+        <th>Created</th>
+    </tr>
+
+    <?php foreach ($coursesUser as $courseuser): ?>
+    <tr>
+        <td><?php echo $courseuser['Course']['name']; ?></td>
+	<td><?php echo h($courseuser['User']['username']); ?></td>
+        <td>
+             
+          | 
+
+	  | 
+        </td>
+
+        <td>?</td>
+    </tr>
+    <?php endforeach; ?>
+    <?php unset($courseuser); ?>
+</table>

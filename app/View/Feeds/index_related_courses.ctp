@@ -1,0 +1,43 @@
+	<div class="feeds index">
+	<h2><?php echo __('Feeds'); ?></h2>
+	<table cellpadding="0" cellspacing="0">
+
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>URL</th>
+        <th>Created</th>
+        <th>Description</th>
+        <th>Course</th>
+        <th>Actions</th>
+    </tr>
+
+	<?php
+	foreach ($feeds as $feed): ?>
+	<tr>
+		<td><?php echo h($feed['Feed']['id']); ?>&nbsp;</td>
+		<td><?php echo h($feed['Feed']['title']); ?>&nbsp;</td>
+		<td><?php echo h($feed['Feed']['url']); ?>&nbsp;</td>
+		<td><?php echo h($feed['Feed']['created']); ?>&nbsp;</td>
+		<td><?php echo h($feed['Feed']['description']); ?>&nbsp;</td>
+		<td>
+			<?php echo $this->Html->link($feed['Course']['name'], array('controller' => 'courses', 'action' => 'view', $feed['Course']['id'])); ?>
+		</td>
+		<td class="actions">
+			<?php echo $this->Html->link(__('View'), array('action' => 'view', $feed['Feed']['id'])); ?>
+			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $feed['Feed']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $feed['Feed']['id']), null, __('Are you sure you want to delete # %s?', $feed['Feed']['id'])); ?>
+		</td>
+	</tr>
+<?php endforeach; ?>
+	</table>
+
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('New Feed'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('List Courses'), array('controller' => 'courses', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Course'), array('controller' => 'courses', 'action' => 'add')); ?> </li>
+	</ul>
+</div>

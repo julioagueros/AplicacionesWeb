@@ -1,0 +1,26 @@
+<?php
+class CoursesUser extends AppModel {
+
+    public $name = 'CoursesUser';
+
+	//Manera en que se agrega las foreign keys.
+	public $belongsTo = array(
+		'Course' => array(
+			'className'    => 'Course',
+			'foreignKey'    => 'course_id'
+		),
+
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id'
+		)
+		
+	);
+
+
+	$courses = $this->CoursesUser->Course->find('list');
+	$this->set('courses', $courses);
+	$users = $this->CoursesUser->User->find('list', array('conditions'=>array('role'=>'estudiante')));
+	$this->set('users', $users);
+
+}
